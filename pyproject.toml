@@ -8,7 +8,7 @@ version = "1.0.1"
 description = "Directional audio cues for Claude Code terminals"
 readme = "README.md"
 license = { text = "MIT" }
-requires-python = ">=3.10"
+requires-python = ">=3.9"
 authors = [{ name = "Floris Fok" }]
 keywords = ["claude", "claude-code", "audio", "iterm2", "macos", "developer-tools"]
 classifiers = [
