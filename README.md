@@ -24,7 +24,14 @@ Claudio plays short stereo pings tied to where each [Claude Code](https://docs.a
 ## Install
 
 ```bash
+# Install via pip (editable mode):
 pip install -e .
+
+# Or install directly from GitHub (HTTPS):
+pip install git+https://github.com/FlorisFok/Claudio.git
+
+# Or via SSH, if you have access:
+pip install git+ssh://git@github.com/FlorisFok/Claudio.git
 ```
 
 ## Hook setup
