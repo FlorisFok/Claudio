@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claudio"
+version = "1.0.1"
+description = "Directional audio cues for Claude Code terminals"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Floris Fok" }]
+keywords = ["claude", "claude-code", "audio", "iterm2", "macos", "developer-tools"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: MacOS",
+    "Environment :: Console",
+]
+
+[project.urls]
+Repository = "https://github.com/floris/claudio"
+
+[project.scripts]
+claudio = "claudio.main:main"
